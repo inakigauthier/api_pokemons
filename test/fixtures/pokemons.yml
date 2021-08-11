@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  type_one: MyString
+  type_two: MyString
+  total: 1
+  hp: MyString
+  attack: 1
+  defense: 1
+  sp_atk: 1
+  sp_def: 1
+  speed: 1
+  generation: 1
+  legendary: false
+
+two:
+  name: MyString
+  type_one: MyString
+  type_two: MyString
+  total: 1
+  hp: MyString
+  attack: 1
+  defense: 1
+  sp_atk: 1
+  sp_def: 1
+  speed: 1
+  generation: 1
+  legendary: false
