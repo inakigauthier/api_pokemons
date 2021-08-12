@@ -2,7 +2,7 @@ module Api
   module V1
     class PokemonsController < ApplicationController
       def index
-        pokemons = Pokemon.all
+        pokemons = Pokemon.page(params[:page]||1).per(params[:per_page]||20)
         render json: {status: 'SUCCESS', messsage: 'Loaded pokemons', data:pokemons}, status: :ok
       end
 
